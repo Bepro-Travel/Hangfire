@@ -236,3 +236,8 @@ docs/_build
 #Jekyll site builds
 _site
 *.userprefs
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user

@@ -6,6 +6,9 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1591</NoWarn>
     <RootNamespace>Hangfire</RootNamespace>
+    <Version>1.7.25</Version>
+    <AssemblyVersion>1.7.25</AssemblyVersion>
+    <FileVersion>1.7.25</FileVersion>
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(TargetFramework)'=='net45' or '$(TargetFramework)'=='net46'">
@@ -61,6 +64,7 @@
     <MSBuildCurrentFullPath>$(MSBuildBinPath)\MSBuild.exe</MSBuildCurrentFullPath>
     <RazorProjectFile>Razor.build</RazorProjectFile>
     <InnerTargets>GenerateRazorClasses;Build</InnerTargets>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <Target Name="GenerateRazorClasses">

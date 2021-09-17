@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyProduct("Hangfire")]
-[assembly: AssemblyCompany("Sergey Odinokov")]
+[assembly: AssemblyCompany("BePro")]
 [assembly: AssemblyCopyright("Copyright © 2013-2016 Sergey Odinokov")]
 [assembly: AssemblyCulture("")]
 
